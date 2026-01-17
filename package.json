@@ -3,11 +3,14 @@
     "displayName": "A++ Code",
     "publisher": "HideMouse",
     "version": "0.0.1",
-    "description": "由A2pC作者制作的A++语法高亮",
+    "description": "由A2pC作者制作的A++扩展",
     "license": "MIT",
     "engines": {
         "vscode": "^1.90.0"
     },
+
+    "icon": "./img/icon.png",
+
     "categories": ["Other"],
     "contributes": {
         "languages": [{
@@ -20,6 +23,20 @@
             "language": "aplusplus",
             "scopeName": "source.aplusplus",
             "path": "./syntaxes/aplusplus.tmLanguage.json"
+        }],
+
+        "themes": [{
+            "label": "A++暗色主题",
+            "uiTheme": "vs-dark",
+            "path": "./themes/aplusplus-dark-theme.json"
         }]
+    },
+
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/HideMouse/A2pCode.git"
+    },
+    "bugs": {
+        "url": "https://github.com/HideMouse/A2pCode/issues"
     }
 }

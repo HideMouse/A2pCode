@@ -5,3 +5,5 @@ history/
 
 *.vsix
 .gitignore
+
+Thumbs.db
