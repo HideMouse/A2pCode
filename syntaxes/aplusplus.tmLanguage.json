@@ -21,28 +21,33 @@
             "match": "[A-Za-z][0-9A-Za-z]+"
         },
         {
-            "name": "keyword.operator.aplusplus",
+            "name": "keyword.operator.assignment.aplusplus",
             "match": "(=|\\^=|&=|\\|=|<<=|>>=|\\+=|-=|\\+\\+|--)"
         },
 
         {
-            "name": "constant.numeric.hex.x.aplusplus",
+            "name": "punctuation.section.aplusplus",
+            "match": "[$]"
+        },
+
+        {
+            "name": "constant.numeric.aplusplus",
             "match": "0x[0-9A-Fa-f]+"
         },
         {
-            "name": "constant.numeric.hex.back.aplusplus",
+            "name": "constant.numeric.aplusplus",
             "match": "\\d[0-9A-Fa-f]+[Hh]"
         },
         {
-            "name": "constant.numeric.bin.b.aplusplus",
+            "name": "constant.numeric.aplusplus",
             "match": "0b[01]+"
         },
         {
-            "name": "constant.numeric.bin.back.aplusplus",
+            "name": "constant.numeric.aplusplus",
             "match": "[01]+[Bb]"
         },
         {
-            "name": "constant.numeric.dec.aplusplus",
+            "name": "constant.numeric.aplusplus",
             "match": "\\d+"
         }
     ]
