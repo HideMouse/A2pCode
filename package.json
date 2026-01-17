@@ -1,0 +1,25 @@
+{
+    "name": "aplusplus-code",
+    "displayName": "A++ Code",
+    "publisher": "HideMouse",
+    "version": "0.0.1",
+    "description": "由A2pC作者制作的A++语法高亮",
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.90.0"
+    },
+    "categories": ["Other"],
+    "contributes": {
+        "languages": [{
+            "id": "aplusplus",
+            "aliases": ["A++", "A2p", "aplusplus"],
+            "extensions": [".a2p"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "aplusplus",
+            "scopeName": "source.aplusplus",
+            "path": "./syntaxes/aplusplus.tmLanguage.json"
+        }]
+    }
+}

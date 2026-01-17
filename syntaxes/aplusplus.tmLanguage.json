@@ -1,0 +1,49 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "name": "A++",
+    "scopeName": "source.aplusplus",
+    "patterns": [
+        {
+            "name": "comment.line.aplusplus",
+            "match": "//.*$"
+        },
+        {
+            "name": "storage.type.aplusplus",
+            "match": "(byte|word|dword|qword)"
+        },
+        {
+            "name": "keyword.control.aplusplus",
+            "match": "(test|goto|to|global|section|global|asm|extern)"
+        },
+
+        {
+            "name": "variable.other.aplusplus",
+            "match": "[A-Za-z][0-9A-Za-z]+"
+        },
+        {
+            "name": "keyword.operator.aplusplus",
+            "match": "(=|\\^=|&=|\\|=|<<=|>>=|\\+=|-=|\\+\\+|--)"
+        },
+
+        {
+            "name": "constant.numeric.hex.x.aplusplus",
+            "match": "0x[0-9A-Fa-f]+"
+        },
+        {
+            "name": "constant.numeric.hex.back.aplusplus",
+            "match": "\\d[0-9A-Fa-f]+[Hh]"
+        },
+        {
+            "name": "constant.numeric.bin.b.aplusplus",
+            "match": "0b[01]+"
+        },
+        {
+            "name": "constant.numeric.bin.back.aplusplus",
+            "match": "[01]+[Bb]"
+        },
+        {
+            "name": "constant.numeric.dec.aplusplus",
+            "match": "\\d+"
+        }
+    ]
+}

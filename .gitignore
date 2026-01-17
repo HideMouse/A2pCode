@@ -1,0 +1,5 @@
+.vscode/
+code/
+history/
+
+*.vsix
