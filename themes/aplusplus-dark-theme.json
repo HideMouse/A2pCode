@@ -1,0 +1,59 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+
+    "name": "A++暗色主题",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#222222",
+        "editor.foreground": "#dadada",
+        "editorCursor.foreground": "#fefefe",
+        "editor.lineHighlightBackground": "#3b3b3b"
+    },
+    "tokenColors": [
+        {
+            "name": "Numbers",
+            "scope": "constant.numeric.aplusplus",
+            "settings": {
+                "foreground": "#e0d61b"
+            }
+        },
+        {
+            "name": "Comments",
+            "scope": "comment.line.aplusplus",
+            "settings": {
+                "foreground": "#2ca600",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "VariableTypes",
+            "scope": "storage.type.aplusplus",
+            "settings": {
+                "foreground": "#55a1ff",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "AssignmentOperators",
+            "scope": "keyword.operator.assignment.aplusplus",
+            "settings": {
+                "foreground": "#ff5f1c"
+            }
+        },
+        {
+            "name": "Brackets",
+            "scope": "punctuation.section.aplusplus",
+            "settings": {
+                "foreground": "#15b198"
+            }
+        },
+        {
+            "name": "Keywords",
+            "scope": "keyword.control.aplusplus",
+            "settings": {
+                "foreground": "#c73b3b",
+                "fontStyle": "bold"
+            }
+        }
+    ]
+}
